@@ -1,0 +1,18 @@
+const Discord = require('discord.js');
+exports.run = async(client, message, args, clients) => {
+  // anything goes here.
+};
+exports.slots = async() => {
+// 1 = public
+// 2 = developer only
+// 3 = verifed member
+// 4 = staff
+// null = custom command(it doesn't have id);
+return id;
+}
+exports.name = async() => {
+  return "name";
+}
+exports.desc = async() => {
+  return "description";
+}
